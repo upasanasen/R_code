@@ -1,2 +1,2 @@
 # R_code
-file:///C:/Users/Shimpi/Desktop/r_work_square_root.R
+This is a R script to calculate square root.
