@@ -1,0 +1,13 @@
+area=read.csv(file.choose(),head=T)
+area
+attach(area)
+mean(India)
+sd(India)
+mean(Mynamr)
+sd(Mynamr)
+var(India)
+var(Mynamr)
+cv_India=sd(India)/mean(India)
+cv_India
+cv_Mynamr=sd(Mynamr)/mean(Mynamr)
+cv_Mynamr
