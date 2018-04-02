@@ -1,0 +1,17 @@
+area=read.csv(file.choose(),head=T)
+area
+attach(area)
+mean(Year.1)
+median(Year.1)
+mode(Year.1)
+sd(Year.1)
+mean(Year.2)
+median(Year.2)
+mode(Year.2)
+sd(Year.2)
+var(Year.1)
+var(Year.2)
+cv1=sd(Year.1)/mean(Year.1)*100
+cv1
+cv2=sd(Year.2)/mean(Year.2)*100
+cv2
