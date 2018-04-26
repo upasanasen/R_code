@@ -1,0 +1,10 @@
+yield=read.csv(file.choose(),head=T)
+yield
+attach(yield)
+mean(Yield.t.ha)
+median(Yield.t.ha)
+mode(Yield.t.ha)
+sd(Yield.t.ha)
+install.packages("moments")
+library(moments)
+skewness(Yield.t.ha, na.rm=FALSE)
