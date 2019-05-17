@@ -1,0 +1,5 @@
+m=c(5, 6, 7, 7, 7, 8, 9)
+class(m)
+mean(m)
+sd(m)
+range(m)
